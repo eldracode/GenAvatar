@@ -1,0 +1,26 @@
+name: GenAvatar
+description: A fun flutter project which generates avatar by taking the string input.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: 
+  flutter_launcher_icons: 
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/eldraco.png"
+
+flutter:
+  uses-material-design: true
